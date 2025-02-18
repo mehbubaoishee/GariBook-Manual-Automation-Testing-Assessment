@@ -9,7 +9,7 @@ options.add_argument("--start-maximized")
 driver = webdriver.Chrome(options=options)
 
 # Open Garibook Website
-driver.get("https://www.garibook.com/")
+driver.get("http://fe.garibook.com/")
 time.sleep(2)
 
 # Enter Phone Number
